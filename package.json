@@ -1,0 +1,21 @@
+{
+  "name": "kaneo-desktop-app",
+  "version": "1.0.0",
+  "description": "Desktop wrapper untuk Kaneo App menggunakan Pake",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build:mac": "npx pake-cli https://kaneo.frmwrk.my.id/ --name \"Kaneo App\" --icon ./assets/icon.png --width 1200 --height 780 --min-width 1024 --min-height 640 --title \"Kaneo App\" --targets apple",
+    "build:windows": "npx pake-cli https://kaneo.frmwrk.my.id/ --name \"Kaneo App\" --icon ./assets/icon.png --width 1200 --height 780 --min-width 1024 --min-height 640 --title \"Kaneo App\" --targets x64",
+    "verify:mac": "npm run build:mac"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "pake-cli": "^3.11.6"
+  }
+}
