@@ -140,3 +140,13 @@ Dokumen ini mencatat keputusan penting proyek desktop Kaneo agar perubahan scope
 - Consequences:
   - Onboarding lebih cepat.
   - Risiko salah langkah saat release berkurang.
+
+## D-013 - Gunakan CHANGELOG.md sebagai catatan rilis utama
+
+- Status: accepted
+- Tanggal: 2026-05-16
+- Context: Setelah rilis awal selesai, dibutuhkan catatan perubahan yang konsisten antar versi.
+- Decision: Menambahkan `CHANGELOG.md` di root sebagai sumber utama ringkasan perubahan per versi.
+- Consequences:
+  - Riwayat rilis lebih mudah ditelusuri.
+  - Penyusunan release notes berikutnya menjadi lebih cepat.
